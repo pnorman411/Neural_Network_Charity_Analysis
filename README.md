@@ -11,11 +11,18 @@ Machine learning and neural networks were used to predict whether an applicant w
 - The features were: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT
 - The EIN and NAME variables were neither target nor features so were removed from the input data
 
+![EIN_NAME](https://user-images.githubusercontent.com/90982811/156249872-06eea9a3-ffba-4cdc-ad3a-8f4d44fdcd7b.jpg)
+
+
+![split_preprocessed](https://user-images.githubusercontent.com/90982811/156249898-879afc16-761b-4b9f-89d3-4ad27ec36867.jpg)
+
 ### Compiling, Training, and Evaluating the Model
 
 - 80 and 30 neurons were used within two hidden layers
 - The target model performance of 75% was not achieved
 - To try to increase the model's performance additional features were removed, STATUS and SPECIAL_CONSIDERATIONS.  A second attempt of optimization included adjusting the bin size.
+
+![accuracy](https://user-images.githubusercontent.com/90982811/156249924-d0bf7e53-52d2-45db-80cb-bfb38ffb56ae.jpg)
 
 ## Summary
 
