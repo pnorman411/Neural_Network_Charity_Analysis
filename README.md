@@ -22,6 +22,9 @@ Machine learning and neural networks were used to predict whether an applicant w
 - The target model performance of 75% was not achieved
 - To try to increase the model's performance additional features were removed, STATUS and SPECIAL_CONSIDERATIONS.  A second attempt of optimization included adjusting the bin size.
 
+![hidden_nodes](https://user-images.githubusercontent.com/90982811/156250203-8f48c2fd-074b-4510-8c22-95a7d42b6279.jpg)
+
+
 ![accuracy](https://user-images.githubusercontent.com/90982811/156249924-d0bf7e53-52d2-45db-80cb-bfb38ffb56ae.jpg)
 
 ## Summary
